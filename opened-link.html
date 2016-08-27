@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+    <link REL="StyleSheet" TYPE="text/css" HREF="styles.css">
+	<title>Go back to the previous tab now!</title>
+	</head>
+	
+	<body>
+
+	<h1>NotBookFace.com</h1>
+	<p/>
+
+    <script>
+	if (window.opener) {
+		opener.location = 'https://twitter.com/Jamie_Farrelly/status/769653000994451456';
+		document.querySelector('p').innerHTML = 'This is when things get a little scary. Go back to the previous tab now';
+	} else {
+		document.querySelector('p').innerHTML = 'Previous tab <em>has not</em> been changed since <code>window.opener</code> was used';
+	}
+	</script>
+	</body>
+</html>
