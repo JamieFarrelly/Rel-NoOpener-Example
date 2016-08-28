@@ -1,25 +1,25 @@
 <!DOCTYPE html>
 <html>
-	<head>
-	<link REL="StyleSheet" TYPE="text/css" HREF="styles.css">
-	<title>Rel NoOpener Phishing Example</title>
-	</head>
+    <head>
+    <link REL="StyleSheet" TYPE="text/css" HREF="styles.css">
+    <title>Rel NoOpener Phishing Example</title>
+    </head>
 
-	<body>
-	<h1>BookFace.com</h1>
-	
-	<div class="post">
-		<p><b>Jamie posted...</b></p>
-		<p>Such a great website, take a look: <a href="opened-link.html" target="_blank">NotBookFace.com</a></p>
-		
-		<small>Note: The link above <b>DOES NOT</b> use the <code>rel="noopener"</code> attribute (vulnerable to phishing).</small>
-	</div>
-	
-	<div class="post">
-		<p><b>Jamie posted...</b></p>
-		<p>Such a great website, take a look: <a href="opened-link.html" target="_blank" rel="noopener">NotBookFace.com</a></p>
-		
-		<small>Note: The link above <b>DOES</b> use the <code>rel="noopener"</code> attribute (not vulnerable).</small>
-	</div>
-	</body>
+    <body>
+    <h1>BookFace.com</h1>
+    
+    <div class="post">
+        <p><b>Jamie posted...</b></p>
+        <p>Such a great website, take a look: <a href="opened-link.html" target="_blank">NotBookFace.com</a></p>
+
+        <small>Note: The link above <b>DOES NOT</b> use the <code>rel="noopener"</code> attribute (vulnerable to phishing).</small>
+    </div>
+
+    <div class="post">
+        <p><b>Jamie posted...</b></p>
+        <p>Such a great website, take a look: <a href="opened-link.html" target="_blank" rel="noopener">NotBookFace.com</a></p>
+
+        <small>Note: The link above <b>DOES</b> use the <code>rel="noopener"</code> attribute (not vulnerable).</small>
+    </div>
+    </body>
 </html>
