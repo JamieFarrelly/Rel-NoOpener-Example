@@ -19,13 +19,18 @@ How to use target="_blank" properly
 
 **Good**
 ```html
-<a href="opened-link.html" target="_blank" rel="noopener">Facebook.com</a>
+<!-- noopener is for all browsers but Firefox, noreferrer is for Firefox -->
+<a href="opened-link.html" target="_blank" rel="noopener noreferrer">Facebook.com</a>
 ```
 
 **Bad**
 ```html
 <a href="opened-link.html" target="_blank">Facebook.com</a>
 ```
+
+Solution (for now)
+--------------------------
+If you use Chrome, I've created an extension which adds rel="noopener noreferrer" to all the links on the current page that you are on. Take a look at it [here](https://github.com/JamieFarrelly/No-Opener-No-Phishers).
 
 Useful Links
 --------------------------
