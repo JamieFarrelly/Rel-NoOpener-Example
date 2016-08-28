@@ -12,14 +12,17 @@
         <p><b>Jamie posted...</b></p>
         <p>Such a great website, take a look: <a href="opened-link.html" target="_blank">NotBookFace.com</a></p>
 
-        <small>Note: The link above <b>DOES NOT</b> use the <code>rel="noopener"</code> attribute (vulnerable to phishing).</small>
+        <small>Note: The link above <b>DOES NOT</b> use the <code>rel="noopener noreferrer""</code> attribute (vulnerable to phishing).</small>
     </div>
 
     <div class="post">
         <p><b>Jamie posted...</b></p>
-        <p>Such a great website, take a look: <a href="opened-link.html" target="_blank" rel="noopener">NotBookFace.com</a></p>
+        <p>Such a great website, take a look: <a href="opened-link.html" target="_blank" rel="noopener noreferrer">NotBookFace.com</a></p>
 
-        <small>Note: The link above <b>DOES</b> use the <code>rel="noopener"</code> attribute (not vulnerable).</small>
+        <small>Note: The link above <b>DOES</b> use the <code>rel="noopener noreferrer"</code> attribute (not vulnerable).</small>
     </div>
+	
+	<p>In case you're wondering, noopener is used for all browsers but Firefox, while noreferrer is what must be used to stop
+       this from happening in FireFox.</p>
     </body>
 </html>
