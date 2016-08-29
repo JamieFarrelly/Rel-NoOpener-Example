@@ -1,6 +1,6 @@
 # Rel NoOpener Example
 
-Example of how the rel attribute can be used for phishing purposes, [available here](https://jamiefarrelly.github.io/Rel-NoOpener-Example/).
+Example of how the rel attribute can be used for phishing purposes, [available here](https://jamiefarrelly.github.io/Rel-NoOpener-Example/). Read my blog post about this for more info: [Browsers are broken, but nobody cares. All it took was 1 line of code to fix it.](https://medium.com/@Jamie_Farrelly/browsers-are-broken-but-nobody-cares-all-it-took-was-1-line-of-code-to-fix-it-f8af13c18cff).
 
 
 Overview
